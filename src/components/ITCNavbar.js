@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function ITCNavbar() {
   return (
-    <Navbar bg="primary" expand="md" variant="dark" sticky="top" className="py-3">
+    <Navbar bg="primary" expand="md" variant="dark" fixed="top" className="py-3">
       <Container fluid>
         <Navbar.Brand href="#home" className="is-size-7">
           Christopher Anderson
@@ -13,7 +13,7 @@ function ITCNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="is-size-8 mx-2 text-white">
+            <Nav.Link href="#coder" className="is-size-8 mx-2 text-white">
               Coder
             </Nav.Link>
             <Nav.Link href="#writer" className="is-size-8 mx-2 text-white">
