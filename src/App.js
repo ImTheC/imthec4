@@ -9,8 +9,8 @@ function App() {
         <ITCNavbar />
       </header>
 
-      <ITCIntro className="mt-5" />
-      <ITCTiles className="mb-5" />
+      <ITCIntro className="my-5" />
+      <ITCTiles className="mb-8 my-5" />
     </div>
   );
 }

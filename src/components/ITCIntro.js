@@ -7,9 +7,9 @@ import ImTheCProfileImg from '../assets/images/imthec_profile.png';
 
 function ITCIntro(props) {
   return (
-    <Container className={props.className}>
+    <Container className={props.className} fluid>
       <Row className="text-center">
-        <Col xs={12} md={4}>
+        <Col sm={12} md={4}>
           <Image
             src={ImTheCProfileImg}
             alt="Christopher Anderson's Profile Picture"
@@ -17,18 +17,18 @@ function ITCIntro(props) {
             roundedCircle
           />
         </Col>
-        <Col xs={12} md={8}>
+        <Col sm={12} md={8}>
           <p className="font-weight-light is-size-5">
-            As a <span class="font-weight-bold text-primary">web developer</span>, I creatively solve problems and bring life to ideas.
+            As a <span className="font-weight-bold text-primary">web developer</span>, I creatively solve problems and bring life to ideas.
           </p>
           <p className="font-weight-light is-size-5">
-            As a <span class="font-weight-bold text-primary">writer</span>, I express life and breathe into existence worlds of imagination.
+            As a <span className="font-weight-bold text-primary">writer</span>, I express life and breathe into existence worlds of imagination.
           </p>
           <p className="font-weight-light is-size-5">
-            As an <span class="font-weight-bold text-primary">actor</span>, I breathe and feel and  live in other artists' worlds, drawing you into the story, in hopes to entertain and inspire.
+            As an <span className="font-weight-bold text-primary">actor</span>, I breathe and feel and  live in other artists' worlds, drawing you into the story, in hopes to entertain and inspire.
           </p>
           <p className="font-weight-light is-size-5">
-            <span class="font-weight-bold text-primary">I'm The C</span>, otherwise known as <span class="span_p">Christopher</span>.
+            <span className="font-weight-bold text-primary">I'm The C</span>, otherwise known as Christopher.
           </p>
         </Col>
       </Row>
