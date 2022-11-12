@@ -1,5 +1,6 @@
 import ITCNavbar from './components/ITCNavbar.js';
 import ITCIntro from './components/ITCIntro.js';
+import ITCTiles from './components/ITCTiles.js';
 
 function App() {
   return (
